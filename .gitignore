@@ -1,0 +1,14 @@
+# Agent config
+.agent/
+.agents/
+
+# CV source files
+CV/
+
+# Lock files
+package-lock.json
+skills-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
