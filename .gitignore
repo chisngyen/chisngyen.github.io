@@ -1,14 +1,25 @@
-# Agent config
-.agent/
-.agents/
+# Ignore the contents of the _site directory and other cache directories
+_site/
+.sass-cache/
+.jekyll-cache/
 
-# CV source files
-CV/
+# Ignore the directory for local files during development
+local/
 
-# Lock files
+# Gemfile.lock SHOULD be committed for reproducible builds.
+
+# Ignore files created by npm
+node_modules
 package-lock.json
-skills-lock.json
 
-# OS files
+# Ignore the vendor file at root level and bundle for alternative installation
+/vendor/
+.bundle/
+
+# Ignore folders related to IDEs
+.vscode/
+.agents/
+.agent/
+
+# Ignore files created by MacOS
 .DS_Store
-Thumbs.db
