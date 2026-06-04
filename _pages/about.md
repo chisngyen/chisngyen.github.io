@@ -9,7 +9,7 @@ redirect_from:
 
 I'm **Trần Chí Nguyên** (Chi-Nguyen Tran), an undergraduate student at **VNUHCM – University of Science (HCMUS)** (K23 AI, 2023–2027).
 
-My research interests include **Vision-Language Models**, **Cross-View Geo-Localization (drone-to-satellite matching)**, and **Autonomous Drone Navigation**—especially visual positioning in GPS-denied environments.
+My research interests span **Robotics & Embodied Perception**, **Cross-View Geo-Localization (drone-to-satellite matching) & Visual Navigation**, **Robust & Efficient Computer Vision**, and **Edge / On-device AI**—especially making aerial robots perceive and navigate reliably on their own hardware in GPS-denied environments.
 
 ### Current roles
 
@@ -24,8 +24,6 @@ My research interests include **Vision-Language Models**, **Cross-View Geo-Local
 - 🥇 **1st Place (×2)** — AbjadNLP Shared Tasks @ EACL 2026
 - 🥉 **Third Prize** — Vietnam Student AI Olympiad (National Round), 2025
 - 🥈 **2nd Prize** — Vietnam Student AI Olympiad (Regional Round), 2025
-- 🎉 **4th Place** — EVENTA Grand Challenge, ACM Multimedia 2025
-- 🎉 **4th Place** — ENTRep Challenge, ACM Multimedia 2025
 
 ### Links
 

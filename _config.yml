@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Chi-Nguyen Tran"
 title_separator          : "-"
 name                     : &name "Chi-Nguyen Tran"
-description              : &description "Chi-Nguyen Tran — AI Researcher at HCMUS (VNU-HCM). Research in Vision-Language Models, Cross-View Geo-Localization, and Autonomous Drone Navigation."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Chi-Nguyen Tran — AI Researcher (HCMUS / VNU-HCM) & Lead AI R&D at Realtime Robotics. Research in Robotics & Embodied Perception, Cross-View Geo-Localization, and Edge / On-device AI."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://chisngyen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Chi-Nguyen Tran"
   pronouns         : # example: "she/her"  
-  bio              : "AI R&D Lead at Realtime Robotics · Undergraduate @ VNUHCM-US (K23 AI) · Research: Vision-Language, Cross-View Geo-Localization, Drone Navigation."
+  bio              : "Lead AI R&D at Realtime Robotics · Undergraduate @ VNUHCM-US (K23 AI) · Research: Robotics & Embodied Perception, Cross-View Geo-Localization, Edge / On-device AI."
   location         : "Ho Chi Minh City, Vietnam"
   employer         : "Realtime Robotics (RTR) / VNUHCM - University of Science"
   # Hide the "Website" sidebar item (you're already on the website).

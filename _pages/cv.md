@@ -13,7 +13,7 @@ You can download a PDF version here: **[`cv.pdf`]({{ base_path }}/files/cv.pdf)*
 
 Research interests
 ======
-Drone visual positioning in GPS-denied environments, cross-view geo-localization (drone-to-satellite matching), robust visual perception under adverse weather and lighting conditions, deep metric learning for image retrieval, and game-theoretic analysis of LLM agent behaviour.
+Robotics and embodied perception, cross-view geo-localization (drone-to-satellite matching) and visual navigation in GPS-denied environments, robust computer vision under adverse weather and corruption, and efficient / on-device (Edge) AI — model compression and distillation for real-time inference on aerial platforms.
 
 Education
 ======
@@ -42,9 +42,6 @@ Selected honors & awards
 * 🥈 **2nd Place** — ALTA 2025 Shared Task (ADE Normalization)
 * 🥈 **2nd Place** — TRACS @ WASP 2025 (IJCNLP-AACL)
 * 🥈 **2nd Place (Top 2/172)** — Dig4Bio Raman Transfer Learning Challenge (Kaggle), 2025
-* 🥉 **Top 3** — EVENTA Grand Challenge, ACM Multimedia 2025
-* 🎉 **4th Place** — EVENTA Grand Challenge, ACM Multimedia 2025
-* 🎉 **4th Place** — ENTRep Challenge, ACM Multimedia 2025
 
 Publications
 ======
