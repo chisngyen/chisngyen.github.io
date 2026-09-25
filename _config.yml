@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Chi-Nguyen Tran"
   pronouns         : # example: "she/her"  
-  bio              : "Lead AI R&D at Realtime Robotics · Undergraduate @ VNUHCM-US (K23 AI) · Research: Robotics & Embodied Perception, Cross-View Geo-Localization, Edge / On-device AI."
+  bio              : "AI R&D Lead at Realtime Robotics. B.Sc. AI student at VNUHCM-US. Cross-view geo-localization, robust perception, edge AI."
   location         : "Ho Chi Minh City, Vietnam"
-  employer         : "Realtime Robotics (RTR) / VNUHCM - University of Science"
+  employer         : "Realtime Robotics"
   # Hide the "Website" sidebar item (you're already on the website).
   uri              :
   email            : "tcnguyen2365@gmail.com"
@@ -85,12 +85,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  competition:
+    title: 'Competition, Challenge & Shared-Task Papers'
+  preprints:
+    title: 'Preprints & Technical Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

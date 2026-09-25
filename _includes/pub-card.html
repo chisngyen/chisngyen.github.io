@@ -1,0 +1,31 @@
+{% include base_path %}
+{% assign me = site.author.name %}
+{% assign me_bold = "<b>" | append: me | append: "</b>" %}
+{% assign authors = post.authors | replace: me, me_bold %}
+<div class="pub{% if post.highlight %} pub--featured{% endif %}{% unless post.teaser %} pub--noimg{% endunless %}">
+  <div class="pub__media">
+    {% if post.teaser %}
+      <a href="{{ post.arxiv | default: post.paperurl | default: post.url | relative_url }}"><img src="{{ base_path }}/images/pubs/{{ post.teaser }}" alt="{{ post.title | escape }}" loading="lazy"></a>
+    {% else %}
+      <div class="pub__tile"><span>{{ post.venue_short }}</span></div>
+    {% endif %}
+  </div>
+  <div class="pub__body">
+    <div class="pub__tags">
+      <span class="pub__venue">{{ post.venue_short }}</span>
+      {% if post.track %}<span class="pub__track">{{ post.track }}</span>{% endif %}
+      {% if post.role %}<span class="pub__role">{{ post.role }}</span>{% endif %}
+    </div>
+    <div class="pub__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>
+    <div class="pub__authors">{{ authors }}</div>
+    {% if post.highlight %}<div class="pub__highlight">{{ post.highlight }}</div>{% endif %}
+    {% if post.award %}<div class="pub__award">{{ post.award }}</div>{% endif %}
+    {% if post.tldr %}<div class="pub__tldr">{{ post.tldr }}</div>{% endif %}
+    <div class="pub__links">
+      {% if post.arxiv %}<a class="pub__btn" href="{{ post.arxiv }}">arXiv</a>{% endif %}
+      {% if post.pdf %}<a class="pub__btn" href="{{ post.pdf }}">PDF</a>{% endif %}
+      {% if post.paperurl %}<a class="pub__btn" href="{{ post.paperurl }}">{{ post.paperlabel | default: "Paper" }}</a>{% endif %}
+      {% if post.code %}<a class="pub__btn" href="{{ post.code }}">Code</a>{% endif %}
+    </div>
+  </div>
+</div>

@@ -1,12 +1,15 @@
 ---
-title: "More at Stake: How Payoff and Language Shape LLM Agent Strategies in Cooperation Dilemmas"
+title: "Payoff Scaling Shapes Cooperation in LLM Agents across Languages"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2026-01-25-more-at-stake
-excerpt: "Game-theoretic analysis of how payoff structure and language affect LLM agent strategies in cooperation dilemmas."
 date: 2026-01-25
-venue: "Preprint (arXiv), not peer-reviewed"
-paperurl: "https://arxiv.org/abs/2601.19082"
-citation: "Huynh, T.-K., Dao-Sy, D.-M., Cao, T.-B., Le, P.-H., Nguyen, H.-D., Nguyen-Lam, P.-Q., Tran, C.-N., et al. (2026). “More at Stake: How Payoff and Language Shape LLM Agent Strategies in Cooperation Dilemmas.” arXiv:2601.19082."
+authors: "Trung-Kiet Huynh, Duy-Minh Dao-Sy, Thanh-Bang Cao, Phong-Hao Le, Hong-Dan Nguyen, Phu-Quy Nguyen-Lam, Minh-Luan Nguyen-Vo, Hong-Phat Pham, Phu-Hoa Pham, Thien-Kim Than, Chi-Nguyen Tran, Huy Tran, Gia-Thoai Tran-Le, Alessio Buscemi, Le Hong Trang, The Anh Han"
+venue_short: "Preprint"
+teaser: "payoff.jpg"
+arxiv: "https://arxiv.org/abs/2601.19082"
+pdf: "https://arxiv.org/pdf/2601.19082"
+tldr: "How the size of the stake and the prompt language change the strategies LLM agents play in cooperation dilemmas. Earlier title: More at Stake."
+citation: "Huynh, T.-K., Dao-Sy, D.-M., Cao, T.-B., et al., Tran, C.-N., et al., Han, T. A. (2026). Payoff Scaling Shapes Cooperation in LLM Agents across Languages. arXiv:2601.19082."
+excerpt: "How the size of the stake and the prompt language change the strategies LLM agents play in cooperation dilemmas. Earlier title: More at Stake."
 ---
-

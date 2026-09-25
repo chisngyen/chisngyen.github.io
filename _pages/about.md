@@ -7,33 +7,42 @@ redirect_from:
   - /about.html
 ---
 
-I'm **Trần Chí Nguyên** (Chi-Nguyen Tran), an undergraduate student at **VNUHCM, University of Science (HCMUS)** (K23 AI, 2023-2027).
+{% include base_path %}
 
-My research interests span **Robotics and Embodied Perception**, **Cross-View Geo-Localization (drone-to-satellite matching) and Visual Navigation**, **Robust and Efficient Computer Vision**, and **Edge / On-device AI**, especially making aerial robots perceive and navigate reliably on their own hardware in GPS-denied environments.
+I'm **Chi-Nguyen Tran** (Trần Chí Nguyên), a final-year B.Sc. student in Artificial Intelligence at **VNUHCM, University of Science** (HCMUS), and AI R&D Lead at **Realtime Robotics**.
 
-### Current roles
+I work on making aerial robots perceive and localize reliably on their own hardware: **cross-view geo-localization** (matching drone views to satellite maps in GPS-denied settings), **robust perception** under adverse weather, and **edge / on-device AI**. I also work on continual learning and on the behaviour of LLM agents with collaborators at Warwick and Teesside.
 
-- **AI R&D Lead**, Realtime Robotics (RTR), Vietnam (2026-Present)
-- **Research member**, Team HCMUS_TheFangs (2025-Present)
-- **Freelance software engineer**, Remote (Canada-based client) (2025-Present)
+<h2 class="sec-title">News</h2>
+<ul class="news">
+  <li><time>Sep 2026</time><span><b>5 papers accepted at NeurIPS 2026</b> (Sydney), 2 as co-first author. <b>SkyPart</b> received reviewer scores <b>5 / 5 / 5</b>.</span></li>
+  <li><time>Aug 2026</time><span>Awarded the Vallet Scholarship 2026.</span></li>
+  <li><time>Jul 2026</time><span><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (MEMRES).</span></li>
+  <li><time>May 2026</time><span>SkyPart, MIST, compositional CFSL and cultural alignment preprints released on arXiv.</span></li>
+  <li><time>Feb 2026</time><span>Joined Realtime Robotics as AI R&amp;D Lead, working on visual positioning for UAVs.</span></li>
+  <li><time>Dec 2025</time><span><b>1st Place</b> in both tracks, NeurIPS 2025 Mouse vs. AI Robust Foraging Competition.</span></li>
+</ul>
 
-### Selected achievements
+<h2 class="sec-title">Selected Publications</h2>
+<p style="font-size: 0.85em">* equal contribution</p>
+{% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for post in selected %}
+  {% include pub-card.html %}
+{% endfor %}
+<p class="sec-more"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>
 
-- **5 papers accepted at NeurIPS 2026** (Sydney), including **2 as co-first author**: weather-robust cross-view geo-localization and reliable streaming decision trees
-- **Winner**, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (team MEMRES)
-- **1st Place**, NeurIPS 2025: Mouse vs AI Robust Foraging Competition (both tracks)
-- **1st Place (x2)**, NakbaNLP Shared Tasks @ LREC-COLING 2026
-- **1st Place (x2)**, AbjadNLP Shared Tasks @ EACL 2026
-- **Top 3.3%** (138/4,182 teams), NVIDIA Nemotron Model Reasoning Challenge (Kaggle), 2026
-- **Third Prize**, Vietnam Student AI Olympiad (National Round), 2025
-- **2nd Prize**, Vietnam Student AI Olympiad (Regional Round), 2025
+<h2 class="sec-title">Honors</h2>
+<ul class="honors">
+  <li><b>1st Place</b>, NeurIPS 2025 Mouse vs. AI Robust Foraging Competition (both tracks)</li>
+  <li><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition</li>
+  <li><b>1st Place (x2)</b>, NakbaNLP Shared Tasks @ LREC-COLING 2026</li>
+  <li><b>1st Place (x2)</b>, AbjadNLP Shared Tasks @ EACL 2026</li>
+  <li><b>Top 3.3%</b> (138 / 4,182 teams), NVIDIA Nemotron Model Reasoning Challenge, Kaggle 2026</li>
+  <li><b>Third Prize</b>, Vietnam Student AI Olympiad, National Round 2025</li>
+  <li><b>Vallet Scholarship</b> 2026</li>
+</ul>
 
-### Links
-
-- **Google Scholar**: <{{ site.author.googlescholar }}>
-- **Semantic Scholar**: <{{ site.author.semantic }}>
-- **ORCID**: <{{ site.author.orcid }}>
-- **GitHub**: <https://github.com/{{ site.author.github }}>
-- **LinkedIn**: <https://www.linkedin.com/in/{{ site.author.linkedin }}/>
-
-You can find my papers on the [Publications](/publications/) page and a downloadable PDF on the [CV](/cv/) page.
+<h2 class="sec-title">Service</h2>
+<ul class="honors">
+  <li>Reviewer: ACL, CVPR Workshops</li>
+</ul>

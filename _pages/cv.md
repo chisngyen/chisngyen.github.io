@@ -47,6 +47,12 @@ Selected honors & awards
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<p style="font-size: 0.88em">* equal contribution</p>
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for category in site.publication_category %}
+{% assign group = pubs | where: "category", category[0] %}
+{% if group.size > 0 %}
+<h3>{{ category[1].title }}</h3>
+{% for post in group %}{% include pub-card.html %}{% endfor %}
+{% endif %}
+{% endfor %}

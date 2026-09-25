@@ -1,0 +1,172 @@
+/* ==========================================================================
+   Custom: publication cards, news, section headings
+   ========================================================================== */
+
+:root {
+  --pub-accent: #1f5f8b;
+  --pub-accent-soft: #eaf2f8;
+  --pub-hot: #b3261e;
+  --pub-hot-soft: #fdecea;
+  --pub-gold: #8a6100;
+  --pub-gold-soft: #fff4d6;
+  --pub-muted: #5f6b73;
+  --pub-line: #e3e7ea;
+  --pub-tile: #f4f6f8;
+}
+
+html[data-theme="dark"] {
+  --pub-accent: #7cb7e3;
+  --pub-accent-soft: #1d2b36;
+  --pub-hot: #ff8a80;
+  --pub-hot-soft: #3a1f1d;
+  --pub-gold: #f2c35b;
+  --pub-gold-soft: #33290f;
+  --pub-muted: #a7b0b6;
+  --pub-line: #33393e;
+  --pub-tile: #22272b;
+}
+
+/* Section headings on the home page */
+.sec-title {
+  margin: 2.2em 0 0.8em;
+  padding-bottom: 0.3em;
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--global-text-color);
+}
+
+.sec-more {
+  margin-top: 0.6em;
+  font-size: 0.85em;
+}
+
+/* Publication card */
+.pub {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1.1em;
+  padding: 1em 0;
+  border-bottom: 1px solid var(--pub-line);
+  font-size: 0.86em;
+  line-height: 1.5;
+}
+
+.pub:last-child { border-bottom: 0; }
+
+.pub--featured {
+  padding: 1em;
+  margin: 0.4em 0 0.6em;
+  border: 1px solid var(--pub-hot);
+  border-left: 4px solid var(--pub-hot);
+}
+
+.pub__media img {
+  display: block;
+  width: 100%;
+  max-height: 170px;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--pub-line);
+}
+
+.pub__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: var(--pub-tile);
+  border: 1px solid var(--pub-line);
+  color: var(--pub-muted);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding: 0 0.5em;
+}
+
+.pub__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  margin-bottom: 0.35em;
+}
+
+.pub__tags span {
+  padding: 0.05em 0.5em;
+  font-size: 0.82em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.pub__venue { background: var(--pub-accent); color: #fff; }
+html[data-theme="dark"] .pub__venue { color: #0f1418; }
+.pub__track { background: var(--pub-accent-soft); color: var(--pub-accent); }
+.pub__role { border: 1px solid var(--pub-accent); color: var(--pub-accent); }
+
+.pub__title {
+  font-size: 1.08em;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.25em;
+}
+
+.pub__title a { color: var(--global-text-color); text-decoration: none; }
+.pub__title a:hover { color: var(--pub-accent); text-decoration: underline; }
+
+.pub__authors { color: var(--pub-muted); }
+.pub__authors b { color: var(--global-text-color); }
+
+.pub__highlight {
+  display: inline-block;
+  margin-top: 0.45em;
+  padding: 0.15em 0.6em;
+  background: var(--pub-hot);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.05em;
+  letter-spacing: 0.03em;
+}
+html[data-theme="dark"] .pub__highlight { color: #1a0d0c; }
+
+.pub__award {
+  margin-top: 0.4em;
+  padding-left: 0.55em;
+  border-left: 3px solid var(--pub-gold);
+  color: var(--pub-gold);
+  font-weight: 700;
+}
+
+.pub__tldr { margin-top: 0.45em; }
+
+.pub__links { margin-top: 0.55em; display: flex; flex-wrap: wrap; gap: 0.4em; }
+
+.pub__btn {
+  padding: 0.1em 0.65em;
+  border: 1px solid var(--pub-accent);
+  color: var(--pub-accent) !important;
+  font-size: 0.85em;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.pub__btn:hover { background: var(--pub-accent); color: #fff !important; }
+
+@media (max-width: 640px) {
+  .pub { grid-template-columns: 1fr; }
+  .pub__media img { max-height: 220px; }
+  .pub--noimg .pub__media { display: none; }
+}
+
+/* News */
+.news { list-style: none; margin: 0; padding: 0; font-size: 0.88em; }
+.news li { display: grid; grid-template-columns: 5.5em 1fr; gap: 0.8em; padding: 0.3em 0; border-bottom: 1px dashed var(--pub-line); }
+.news li:last-child { border-bottom: 0; }
+.news time { color: var(--pub-muted); font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* Honors */
+.honors { font-size: 0.88em; padding-left: 1.1em; }
+.honors li { margin: 0.2em 0; }
+
+/* Publication detail page */
+.pub-detail__fig img { width: 100%; border: 1px solid var(--pub-line); background: #fff; }
+.pub-detail__cite { font-size: 0.8em; color: var(--pub-muted); border-left: 3px solid var(--pub-line); padding-left: 0.8em; }
