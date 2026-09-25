@@ -170,3 +170,6 @@ html[data-theme="dark"] .pub__highlight { color: #1a0d0c; }
 /* Publication detail page */
 .pub-detail__fig img { width: 100%; border: 1px solid var(--pub-line); background: #fff; }
 .pub-detail__cite { font-size: 0.8em; color: var(--pub-muted); border-left: 3px solid var(--pub-line); padding-left: 0.8em; }
+
+/* CV download button */
+.cv-btn { display: inline-block; padding: 0.35em 1em; font-size: 0.9em; }

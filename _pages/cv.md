@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version here: **[`cv.pdf`]({{ base_path }}/files/cv.pdf)**.
+<p><a class="pub__btn cv-btn" href="{{ base_path }}/files/cv.pdf">Download CV (PDF)</a></p>
 
 Research interests
 ======
