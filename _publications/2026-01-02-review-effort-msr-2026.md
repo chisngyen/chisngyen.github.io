@@ -12,6 +12,6 @@ pdf: "https://arxiv.org/pdf/2601.00753"
 tldr: "Predicts at creation time which agent-authored pull requests will cost maintainers the most review effort; flagging the top 20% catches 69% of total effort."
 citation: "Dao-Sy, D.-M., Huynh, T.-K., Nguyen-Lam, P.-Q., Pham, P.-H., Tran, C.-N., Nguyen, D.-H.-D., Truong, B.-T. (2026). Early-Stage Prediction of Review Effort in AI-Generated Pull Requests. MSR 2026 Mining Challenge. arXiv:2601.00753."
 excerpt: "Predicts at creation time which agent-authored pull requests will cost maintainers the most review effort; flagging the top 20% catches 69% of total effort."
-teaser: "review-effort.jpg"
-teaser_hover: "review-effort_hover.jpg"
+teaser: "t-review-effort.jpg"
+teaser_hover: "t-review-effort-h.jpg"
 ---

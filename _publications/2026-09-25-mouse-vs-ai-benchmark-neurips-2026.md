@@ -12,6 +12,6 @@ citation: "Schneider, M., Canzano, J. S., Hou, Y., Peng, J., Deepu, A., Karan, U
 excerpt: "The benchmark paper of the NeurIPS 2025 Mouse vs. AI competition, co-authored with the organizers as a member of the first-place team."
 selected: true
 report: "https://arxiv.org/abs/2602.00982"
-teaser: "mousevsai.jpg"
-teaser_hover: "mousevsai_hover.jpg"
+teaser: "t-mousevsai.jpg"
+teaser_hover: "t-mousevsai-h.jpg"
 ---

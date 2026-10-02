@@ -8,8 +8,6 @@ authors: "Chi-Nguyen Tran*, Duy-Minh Dao-Sy*, Trung-Kiet Huynh*, Phu-Quy Nguyen-
 venue_short: "NeurIPS 2026"
 track: "Main Track"
 role: "Co-first author"
-teaser: "geoloc.jpg"
-teaser_hover: "geoloc_hover.jpg"
 arxiv: "https://arxiv.org/abs/2605.11654"
 pdf: "https://arxiv.org/pdf/2605.11654"
 tldr: "SkyPart: a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
@@ -17,4 +15,6 @@ citation: "Tran, C.-N.*, Dao-Sy, D.-M.*, Huynh, T.-K.*, Nguyen-Lam, P.-Q., Pham,
 excerpt: "SkyPart: a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
 selected: true
 featured: true
+teaser: "t-geoloc.jpg"
+teaser_hover: "t-geoloc-h.jpg"
 ---
