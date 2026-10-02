@@ -89,8 +89,6 @@ publication_category:
     title: 'Conference Papers'
   competition:
     title: 'Competition, Challenge & Shared-Task Papers'
-  preprints:
-    title: 'Preprints & Technical Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

@@ -12,4 +12,5 @@ tldr: "The benchmark paper of the NeurIPS 2025 Mouse vs. AI competition, co-auth
 citation: "Schneider, M., Canzano, J. S., Hou, Y., Peng, J., Deepu, A., Karan, U., Pham, P.-H., Tran, C.-N., Dao-Sy, D.-M., Nguyen-Lam, P.-Q., Huynh, T.-K., Azeglio, S., Smith, S., Beyeler, M. (2026). Visual Robustness and Neural Alignment in a Shared Foraging Task: The Mouse vs. AI Benchmark. NeurIPS 2026 Evaluations and Datasets Track."
 excerpt: "The benchmark paper of the NeurIPS 2025 Mouse vs. AI competition, co-authored with the organizers as a member of the first-place team."
 selected: true
+report: "https://arxiv.org/abs/2602.00982"
 ---

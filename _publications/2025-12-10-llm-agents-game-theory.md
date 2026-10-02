@@ -12,4 +12,5 @@ pdf: "https://arxiv.org/pdf/2512.07462"
 tldr: "Recognizes which strategy an LLM agent is playing from its action sequence, and uses it to study biases and multi-agent dynamics."
 citation: "Huynh, T.-K., Dao-Sy, D.-M., Cao, T.-B., et al., Tran, C.-N., et al., Han, T. A. (2025). Understanding LLM Agent Behaviours via Game Theory: Strategy Recognition, Biases and Multi-Agent Dynamics. arXiv:2512.07462."
 excerpt: "Recognizes which strategy an LLM agent is playing from its action sequence, and uses it to study biases and multi-agent dynamics."
+published: false
 ---
