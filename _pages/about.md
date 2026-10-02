@@ -32,9 +32,13 @@ I want machines that can work out where they are, agree on what many sensors tel
 <h2 class="sec-title">Selected Publications</h2>
 <p style="font-size: 0.85em">* equal contribution</p>
 {% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
-{% for post in selected %}
+{% assign featured = selected | where: "featured", true %}
+{% for post in featured %}
   {% include pub-card.html %}
 {% endfor %}
+{% for post in selected %}{% unless post.featured %}
+  {% include pub-card.html %}
+{% endunless %}{% endfor %}
 <p class="sec-more"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>
 
 <h2 class="sec-title">Honors</h2>
