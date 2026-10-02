@@ -2,10 +2,10 @@
 {% assign me = site.author.name %}
 {% assign me_bold = "<b>" | append: me | append: "</b>" %}
 {% assign authors = post.authors | replace: me, me_bold %}
-<div class="pub{% if post.highlight %} pub--featured{% endif %}{% unless post.teaser %} pub--noimg{% endunless %}">
+<div class="pub{% if post.highlight or post.featured %} pub--featured{% endif %}{% unless post.teaser %} pub--noimg{% endunless %}">
   <div class="pub__media">
     {% if post.teaser %}
-      <a href="{{ post.arxiv | default: post.paperurl | default: post.url | relative_url }}"><img src="{{ base_path }}/images/pubs/{{ post.teaser }}" alt="{{ post.title | escape }}" loading="lazy"></a>
+      <a href="{{ post.arxiv | default: post.paperurl | default: post.url | relative_url }}"><span class="pub__swap"><img src="{{ base_path }}/images/pubs/{{ post.teaser }}" alt="{{ post.title | escape }}" loading="lazy">{% if post.teaser_hover %}<img class="pub__hover" src="{{ base_path }}/images/pubs/{{ post.teaser_hover }}" alt="" loading="lazy">{% endif %}</span></a>
     {% else %}
       <div class="pub__tile"><span>{{ post.venue_short }}</span></div>
     {% endif %}
