@@ -35,7 +35,7 @@ Selected honors & awards
 ======
 * **Winner**, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition, team MEMRES
 * **1st Place**, NeurIPS 2025: Mouse vs AI Robust Foraging Competition (both tracks)
-* **1st Place (x2)**, NakbaNLP Shared Tasks @ LREC-COLING 2026
+* **1st Place**, NakbaArchiveClassifier Shared Task, NakbaNLP @ LREC 2026
 * **1st Place (x2)**, AbjadNLP Shared Tasks @ EACL 2026
 * **Top 3.3%** (138/4,182 teams), NVIDIA Nemotron Model Reasoning Challenge (Kaggle), 2026
 * **Third Prize**, Vietnam Student AI Olympiad (National Round), 2025
