@@ -25,7 +25,7 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
 
 <p class="hb__links"><a href="mailto:tcnguyen2365@gmail.com">Email</a> / <a href="{{ base_path }}/files/cv.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=dyVn0zMAAAAJ&hl=en">Scholar</a> / <a href="https://github.com/chisngyen">GitHub</a> / <a href="https://www.linkedin.com/in/chi-nguyen-tran-381513331/">LinkedIn</a></p>
 </div>
-<img class="hb__photo" src="{{ base_path }}/images/profile.jpg" alt="Chi-Nguyen Tran">
+<img class="hb__photo" src="{{ base_path }}/images/profile.jpg?v=2" alt="Chi-Nguyen Tran">
 </div>
 
 <h2 class="sec-title">News</h2>

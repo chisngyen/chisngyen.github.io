@@ -85,7 +85,7 @@ html[data-theme="dark"] { --pub-link: #7cb7e3; --pub-feat-bg: #2b2a17; --pub-gol
 .hb { display: flex; gap: 2em; align-items: flex-start; margin-bottom: 0.5em; }
 .hb__text { flex: 1; min-width: 0; }
 .hb__name { text-align: center; font-size: 2em; font-weight: 400; margin: 0 0 0.4em; border: 0; }
-.hb__photo { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex: none; margin-top: 0.4em; }
+.hb__photo { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center; flex: none; margin-top: 0.4em; }
 .hb__links { text-align: center; margin-top: 0.8em; }
 @media (max-width: 640px) {
   .hb { flex-direction: column-reverse; align-items: center; }
