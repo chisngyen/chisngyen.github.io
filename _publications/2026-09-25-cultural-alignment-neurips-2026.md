@@ -14,5 +14,4 @@ citation: "Huynh, T.-K., Dao-Sy, D.-M., Nguyen, T., Tran, C.-N., Pham, P.-H., Ng
 excerpt: "Aligns a frozen LLM to the moral preferences of a country without training: country-conditioned personas vote, and only the decisions they agree on are kept."
 selected: true
 teaser: "t-culture.jpg"
-teaser_hover: "t-culture-h.jpg"
 ---

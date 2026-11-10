@@ -15,6 +15,5 @@ citation: "Tran, C.-N.*, Dao-Sy, D.-M.*, Huynh, T.-K.*, Nguyen-Lam, P.-Q., Pham,
 excerpt: "SkyPart: a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
 selected: true
 featured: true
-teaser: "t-geoloc.jpg"
-teaser_hover: "t-geoloc-h.jpg"
+teaser: "t-skypart.jpg"
 ---
