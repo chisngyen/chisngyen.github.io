@@ -12,6 +12,5 @@ pdf: "https://arxiv.org/pdf/2605.11710"
 tldr: "Holistic training with a slot-attention router, then compositional inference that scores queries part by part, so a continual few-shot learner generalizes to unseen combinations of known parts."
 citation: "Nguyen-Lam, P.-Q., Pham, P.-H., Dao-Sy, D.-M., Tran, C.-N., Huynh, T.-K., Tran-Thanh, L. (2026). Unlocking Compositional Generalization in Continual Few-Shot Learning. NeurIPS 2026. arXiv:2605.11710."
 excerpt: "Holistic training with a slot-attention router, then compositional inference that scores queries part by part, so a continual few-shot learner generalizes to unseen combinations of known parts."
-selected: true
 teaser: "t-cfsl.jpg"
 ---

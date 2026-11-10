@@ -14,14 +14,11 @@ redirect_from:
 <div class="hb__text" markdown="1">
 <h1 class="hb__name">Chi-Nguyen Tran</h1>
 
-I'm a final-year B.Sc. student in Artificial Intelligence at **VNUHCM, University of Science** (HCMUS), and AI R&D Lead at **Realtime Robotics**.
+I'm a final-year B.Sc. student in Artificial Intelligence at <a href="https://hcmus.edu.vn">VNUHCM, University of Science</a> (HCMUS) and AI R&D Lead at **Realtime Robotics**.
 
-I am doing research in robotics. My goal is to help robots understand what is around them, know where they are, and work out how to act, and whether it is safe to act, when their surroundings change. In the real world, light, weather and surroundings keep changing and sensors get noisy, so a model that scores well on test data can still fail once deployed. I work on models that hold up in those conditions and are light enough to run on the small computers robots carry:
+I am doing research in robotics. My goal is to help robots understand what is around them, know where they are, and work out how to act, and whether it is safe to act, when their surroundings change, with models light enough to run on the robot itself.
 
-- **Perceive and localize.** Robots that keep recognising where they are when the weather and the scene change.
-- **Act.** Agents that act reliably on camera input distorted in ways they never saw in training.
-- **Test.** Finding the road scenarios most likely to break a self-driving car.
-- **Next.** Teams of robots that learn whom to trust, and vision-language-action models for acting on what they see.
+With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in both tracks** of the NeurIPS 2025 Mouse vs. AI competition, and a paper in **Interface Focus** (Royal Society).
 
 **I am looking for PhD positions starting Fall 2027** in robotics.
 
@@ -33,6 +30,8 @@ I am doing research in robotics. My goal is to help robots understand what is ar
 
 <h2 class="sec-title">News</h2>
 <ul class="news">
+  <li><time>Nov 2026</time><span>Paper accepted in <b>Interface Focus</b> (Royal Society, Q1 journal).</span></li>
+  <li><time>Oct 2026</time><span>Awarded the Pony Chung Scholarship 2026-2027 and the Khoi Nguon Sang Tao Award 2026 (Tuoi Tre).</span></li>
   <li><time>Sep 2026</time><span><b>5 papers accepted at NeurIPS 2026</b> (Sydney), 2 as co-first author.</span></li>
   <li><time>Aug 2026</time><span>Awarded the Vallet Scholarship 2026.</span></li>
   <li><time>Jul 2026</time><span><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (MEMRES).</span></li>
@@ -40,9 +39,9 @@ I am doing research in robotics. My goal is to help robots understand what is ar
   <li><time>Dec 2025</time><span><b>1st Place</b> in both tracks, NeurIPS 2025 Mouse vs. AI Robust Foraging Competition.</span></li>
 </ul>
 
-<h2 class="sec-title">Selected Publications</h2>
-<p style="font-size: 0.85em">* equal contribution</p>
-{% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+<h2 class="sec-title">Research</h2>
+<p class="sec-lead">Light, weather and surroundings keep changing and sensors get noisy, so a model that scores well on test data can still fail once deployed. I work on robots that keep recognising where they are when the scene changes, agents that act on camera input distorted in ways they never saw in training, and tests that find the scenarios most likely to break a self-driving car. Next: teams of robots that learn whom to trust. Representative papers are below, the highlighted one first. * equal contribution.</p>
+{% assign selected = site.publications | where: "selected", true | sort: "rank" %}
 {% assign featured = selected | where: "featured", true %}
 {% for post in featured %}
   {% include pub-card.html %}
@@ -56,12 +55,12 @@ I am doing research in robotics. My goal is to help robots understand what is ar
 <ul class="honors">
   <li><b>1st Place</b> (both tracks), NeurIPS 2025 Mouse vs. AI Robust Foraging Competition</li>
   <li><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition</li>
-  <li><b>1st Place</b> in five shared tasks at SemEval-2026, LREC 2026 and EACL 2026</li>
+  <li><b>1st Place</b> in four shared tasks at SemEval-2026 (one tied), LREC 2026 and EACL 2026</li>
   <li><b>Third Prize</b>, Vietnam Student AI Olympiad, National Round 2025</li>
-  <li><b>Vallet Scholarship</b> 2026</li>
+  <li><b>Scholarships</b>: Vallet (2026), Pony Chung (2026-2027), Khoi Nguon Sang Tao, Tuoi Tre and Ho Dac Cung Fund (2026)</li>
 </ul>
 
 <h2 class="sec-title">Service</h2>
 <ul class="honors">
-  <li>Reviewer: ACL, CVPR Workshops</li>
+  <li>Reviewer: AIMS @ CVPR 2026; LT-EDI, DravidianLangTech and SemEval-2026 @ ACL 2026</li>
 </ul>

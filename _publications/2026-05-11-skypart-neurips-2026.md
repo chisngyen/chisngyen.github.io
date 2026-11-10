@@ -10,10 +10,11 @@ track: "Main Track"
 role: "Co-first author"
 arxiv: "https://arxiv.org/abs/2605.11654"
 pdf: "https://arxiv.org/pdf/2605.11654"
-tldr: "SkyPart: a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
+tldr: "a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
 citation: "Tran, C.-N.*, Dao-Sy, D.-M.*, Huynh, T.-K.*, Nguyen-Lam, P.-Q., Pham, P.-H., Tran-Thanh, L. (2026). Weather-Robust Cross-View Geo-Localization via Prototype-Based Semantic Part Discovery. NeurIPS 2026. arXiv:2605.11654."
-excerpt: "SkyPart: a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
+excerpt: "a lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
 selected: true
+rank: 1
 featured: true
 teaser: "t-skypart.jpg"
 ---
