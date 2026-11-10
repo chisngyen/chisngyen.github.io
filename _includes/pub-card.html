@@ -17,7 +17,7 @@
 <div class="pub{% if post.featured %} pub--featured{% endif %}{% unless post.teaser %} pub--noimg{% endunless %}">
   <div class="pub__media">
     {% if post.teaser %}
-      <a href="{{ link }}"><span class="pub__swap"><img src="{{ base_path }}/images/pubs/{{ post.teaser }}" alt="{{ post.title | escape }}" loading="lazy">{% if post.teaser_hover %}<img class="pub__hover" src="{{ base_path }}/images/pubs/{{ post.teaser_hover }}" alt="" loading="lazy">{% endif %}</span></a>
+      <a href="{{ link }}"><span class="pub__swap"><img src="{{ base_path }}/images/pubs/{{ post.teaser }}?v=2" alt="{{ post.title | escape }}" loading="lazy">{% if post.teaser_hover %}<img class="pub__hover" src="{{ base_path }}/images/pubs/{{ post.teaser_hover }}" alt="" loading="lazy">{% endif %}</span></a>
     {% else %}
       <div class="pub__tile"><span>{{ post.venue_short }}</span></div>
     {% endif %}
