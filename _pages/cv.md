@@ -42,7 +42,6 @@ Selected honors & awards
 * **Third Prize**, Vietnam Student AI Olympiad (National Round), 2025
 * **2nd Prize**, Vietnam Student AI Olympiad (Regional Round), 2025
 * **2nd Prize**, MMLoSo Language Challenge 2025 (IJCNLP-AACL)
-* **Scholarships**: Vallet (2026), Pony Chung (2026-2027), Khoi Nguon Sang Tao (2026)
 * **2nd Place**, ALTA 2025 Shared Task (ADE Normalization)
 * **2nd Place**, TRACS @ WASP 2025 (IJCNLP-AACL)
 * **2nd Place** (Top 2/172), Dig4Bio Raman Transfer Learning Challenge (Kaggle), 2025

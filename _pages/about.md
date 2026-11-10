@@ -31,9 +31,7 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
 <h2 class="sec-title">News</h2>
 <ul class="news">
   <li><time>Nov 2026</time><span>Paper accepted in <b>Interface Focus</b> (Royal Society, Q1 journal).</span></li>
-  <li><time>Oct 2026</time><span>Awarded the Pony Chung Scholarship 2026-2027 and the Khoi Nguon Sang Tao Award 2026 (Tuoi Tre).</span></li>
   <li><time>Sep 2026</time><span><b>5 papers accepted at NeurIPS 2026</b> (Sydney), 2 as co-first author.</span></li>
-  <li><time>Aug 2026</time><span>Awarded the Vallet Scholarship 2026.</span></li>
   <li><time>Jul 2026</time><span><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (MEMRES).</span></li>
   <li><time>Feb 2026</time><span>Joined Realtime Robotics as AI R&amp;D Lead, working on perception and localization for robots on embedded hardware.</span></li>
   <li><time>Dec 2025</time><span><b>1st Place</b> in both tracks, NeurIPS 2025 Mouse vs. AI Robust Foraging Competition.</span></li>
@@ -57,7 +55,6 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
   <li><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition</li>
   <li><b>1st Place</b> in four shared tasks at SemEval-2026 (one tied), LREC 2026 and EACL 2026</li>
   <li><b>Third Prize</b>, Vietnam Student AI Olympiad, National Round 2025</li>
-  <li><b>Scholarships</b>: Vallet (2026), Pony Chung (2026-2027), Khoi Nguon Sang Tao, Tuoi Tre and Ho Dac Cung Fund (2026)</li>
 </ul>
 
 <h2 class="sec-title">Service</h2>
