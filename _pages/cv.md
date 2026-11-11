@@ -39,7 +39,7 @@ I am currently doing research in robotics. My goal is to help robots understand 
 * **1st Place**, NakbaArchiveClassifier Shared Task, NakbaNLP @ LREC 2026
 * **1st Place (x2)**, AbjadNLP Shared Tasks @ EACL 2026
 * **1st Place (tied)**, SemEval-2026 Task 11 Subtask 1
-* **Top 3.3%** (138/4,182 teams), NVIDIA Nemotron Model Reasoning Challenge (Kaggle), 2026
+* **Top 3.3%** (rank 139 of 4,185 teams), NVIDIA Nemotron Model Reasoning Challenge (Kaggle), 2026
 * **Third Prize**, Vietnam Student AI Olympiad (National Round), 2025
 * **2nd Prize**, Vietnam Student AI Olympiad (Regional Round), 2025
 * **2nd Prize**, MMLoSo Language Challenge 2025 (IJCNLP-AACL)
