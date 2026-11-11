@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2026-05-11-skypart-neurips-2026
 date: 2026-05-12
-authors: "Chi-Nguyen Tran*, Duy-Minh Dao-Sy*, Trung-Kiet Huynh*, Phu-Quy Nguyen-Lam, Phu-Hoa Pham, Long Tran-Thanh"
+authors: "Chi-Nguyen Tran*, Duy-Minh Dao-Sy*, Trung-Kiet Huynh*, Phu-Hoa Pham, Phu-Quy Nguyen-Lam, Long Tran-Thanh"
 venue_short: "NeurIPS 2026"
 track: "Main Track"
 role: "Co-first author"
