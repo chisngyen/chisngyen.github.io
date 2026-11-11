@@ -15,7 +15,7 @@ redirect_from:
 <div class="hb__text" markdown="1">
 <h1 class="hb__name">Chi-Nguyen Tran</h1>
 
-I'm a final-year B.Sc. student in Artificial Intelligence at <a href="https://hcmus.edu.vn">VNUHCM, University of Science</a> (HCMUS) and AI R&D Lead at **Realtime Robotics**.
+I'm a final-year B.Sc. student in Artificial Intelligence at <a href="https://hcmus.edu.vn">VNUHCM, University of Science</a> (HCMUS). From February to October 2026 I was AI R&D Lead at **Realtime Robotics**.
 
 I am doing research in robotics. My goal is to help robots understand what is around them, know where they are, and work out how to act, and whether it is safe to act, when their surroundings change, with models light enough to run on the robot itself.
 
@@ -32,6 +32,7 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
 <h2 class="sec-title">News</h2>
 <ul class="news">
   <li><time>Nov 2026</time><span>Paper accepted in <b>Interface Focus</b> (Royal Society, Q1 journal).</span></li>
+  <li><time>Oct 2026</time><span>Finished my role as AI R&amp;D Lead at Realtime Robotics.</span></li>
   <li><time>Sep 2026</time><span><b>5 papers accepted at NeurIPS 2026</b> (Sydney), 2 as co-first author.</span></li>
   <li><time>Jul 2026</time><span><b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (MEMRES).</span></li>
   <li><time>Feb 2026</time><span>Joined Realtime Robotics as AI R&amp;D Lead, working on perception and localization for robots on embedded hardware.</span></li>

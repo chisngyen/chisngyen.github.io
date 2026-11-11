@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Chi-Nguyen Tran"
 title_separator          : "-"
 name                     : &name "Chi-Nguyen Tran"
-description              : &description "Chi-Nguyen Tran, robotics researcher, final-year AI student at VNUHCM University of Science and AI R&D Lead at Realtime Robotics. Robots that perceive, localize and act reliably when conditions change."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Chi-Nguyen Tran, robotics researcher, final-year AI student at VNUHCM University of Science. Robots that perceive, localize and act reliably when conditions change."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://chisngyen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,10 +26,10 @@ author:
   avatar           : "profile.jpg"
   name             : "Chi-Nguyen Tran"
   pronouns         : # example: "she/her"  
-  bio              : "Robots that perceive, localize and act reliably when conditions change. AI R&D Lead at Realtime Robotics, final-year AI student at VNUHCM-US. Looking for PhD positions (Fall 2027)."
+  bio              : "Robots that perceive, localize and act reliably when conditions change. Final-year AI student at VNUHCM-US. Looking for PhD positions (Fall 2027)."
   location         : "Ho Chi Minh City, Vietnam"
-  employer         : "Realtime Robotics"
-  job_title        : "AI R&D Lead"
+  employer         :
+  job_title        :
   affiliation      : "VNUHCM University of Science"
   # Hide the "Website" sidebar item (you're already on the website).
   uri              :

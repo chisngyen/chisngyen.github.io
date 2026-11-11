@@ -74,8 +74,6 @@
     "url": {{ seo_url | append: "/" | jsonify }},
     "image": {{ "/images/" | append: site.author.avatar | prepend: seo_url | jsonify }},
     "email": {{ "mailto:" | append: site.author.email | jsonify }},
-    "jobTitle": {{ site.author.job_title | jsonify }},
-    "worksFor": { "@type": "Organization", "name": {{ site.author.employer | jsonify }} },
     "affiliation": { "@type": "CollegeOrUniversity", "name": {{ site.author.affiliation | jsonify }}, "url": "https://hcmus.edu.vn" },
     "knowsAbout": ["Robotics", "Robot perception", "Localization", "Computer vision"],
     "sameAs": {{ site.social.links | jsonify }}
