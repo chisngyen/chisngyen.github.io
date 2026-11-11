@@ -21,14 +21,14 @@ html[data-theme="dark"] {
   --pub-hot-soft: #3a1f1d;
   --pub-gold: #f2c35b;
   --pub-gold-soft: #33290f;
-  --pub-muted: #a7b0b6;
+  --pub-muted: #c3c9cd;
   --pub-line: #33393e;
   --pub-tile: #22272b;
 }
 
 /* Barron-style home (jonbarron.info): Lato, whitespace instead of rules, flat yellow highlight */
 :root { --pub-link: #1772d0; --pub-feat-bg: #ffffd0; }
-html[data-theme="dark"] { --pub-link: #7cb7e3; --pub-feat-bg: #2b2a17; --pub-gold: #d9b45a; }
+html[data-theme="dark"] { --pub-link: #9ccbf0; --pub-feat-bg: #2b2a17; --pub-gold: #d9b45a; }
 
 #main.home-barron, #main.home-barron .page__content { font-family: Lato, Verdana, Helvetica, sans-serif; }
 #main.home-barron .page__content a { color: var(--pub-link); text-decoration: none; }
@@ -45,7 +45,7 @@ html[data-theme="dark"] { --pub-link: #7cb7e3; --pub-feat-bg: #2b2a17; --pub-gol
 .pub__title { display: block; font-size: 1.08em; font-weight: 700; line-height: 1.35; margin-bottom: 0.25em; }
 .pub__authors { color: var(--global-text-color); }
 .pub__venue { margin-top: 0.15em; }
-.pub__role { font-size: 0.82em; font-variant: small-caps; letter-spacing: 0.03em; color: var(--pub-muted); margin-left: 0.4em; }
+.pub__role { font-weight: 700; }
 .pub__highlight { margin-top: 0.35em; color: var(--pub-hot); font-weight: 700; }
 .pub__award { margin-top: 0.35em; color: var(--pub-gold); font-weight: 700; }
 .pub__tldr { margin-top: 0.4em; }

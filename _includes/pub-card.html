@@ -25,7 +25,7 @@
   <div class="pub__body">
     <a class="pub__title" href="{{ link }}">{{ post.title }}</a>
     <div class="pub__authors">{{ authors }}</div>
-    <div class="pub__venue"><em>{{ post.venue_short }}</em>{% if post.track and post.track != "Main Track" %}, {{ post.track }}{% endif %}{% if post.role %} <span class="pub__role">{{ post.role }}</span>{% endif %}</div>
+    <div class="pub__venue"><em>{{ post.venue_short }}</em>{% if post.track and post.track != "Main Track" %}, {{ post.track }}{% endif %}{% if post.role %}, <span class="pub__role">{{ post.role }}</span>{% endif %}</div>
     {% if post.highlight %}<div class="pub__highlight">{{ post.highlight }}</div>{% endif %}
     {% if post.award %}<div class="pub__award">{{ post.award }}</div>{% endif %}
     <div class="pub__links">{% assign sep = "" %}{% if post.arxiv %}<a href="{{ post.arxiv }}">arXiv</a>{% assign sep = " / " %}{% endif %}{% if post.pdf %}{{ sep }}<a href="{{ post.pdf }}">PDF</a>{% assign sep = " / " %}{% endif %}{% if post.paperurl %}{{ sep }}<a href="{{ post.paperurl }}">{{ post.paperlabel | default: "paper" }}</a>{% assign sep = " / " %}{% endif %}{% if post.code %}{{ sep }}<a href="{{ post.code }}">code</a>{% assign sep = " / " %}{% endif %}{% if post.report %}{{ sep }}<a href="{{ post.report }}">report</a>{% endif %}</div>

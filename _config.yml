@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Chi-Nguyen Tran"
 title_separator          : "-"
 name                     : &name "Chi-Nguyen Tran"
-description              : &description "Chi-Nguyen Tran, AI researcher (HCMUS, VNU-HCM) and AI R&D Lead at Realtime Robotics. Robots that perceive, localize and act reliably when conditions change."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Chi-Nguyen Tran, robotics researcher, final-year AI student at VNUHCM University of Science and AI R&D Lead at Realtime Robotics. Robots that perceive, localize and act reliably when conditions change."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://chisngyen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,11 @@ author:
   avatar           : "profile.jpg"
   name             : "Chi-Nguyen Tran"
   pronouns         : # example: "she/her"  
-  bio              : "Robots that see, decide and act. AI R&D Lead at Realtime Robotics, final-year AI student at VNUHCM-US. Looking for PhD positions (Fall 2027)."
+  bio              : "Robots that perceive, localize and act reliably when conditions change. AI R&D Lead at Realtime Robotics, final-year AI student at VNUHCM-US. Looking for PhD positions (Fall 2027)."
   location         : "Ho Chi Minh City, Vietnam"
   employer         : "Realtime Robotics"
+  job_title        : "AI R&D Lead"
+  affiliation      : "VNUHCM University of Science"
   # Hide the "Website" sidebar item (you're already on the website).
   uri              :
   email            : "tcnguyen2365@gmail.com"
@@ -149,9 +151,14 @@ og_description           : *description  # Social media default site image descr
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Person
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?user=dyVn0zMAAAAJ"
+    - "https://orcid.org/0009-0007-6716-7269"
+    - "https://github.com/chisngyen"
+    - "https://www.linkedin.com/in/chi-nguyen-tran-381513331/"
+    - "https://www.semanticscholar.org/author/Chi-Nguyen-Tran/2397381348"
 
 
 # Analytics
