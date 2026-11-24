@@ -47,3 +47,6 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
 {% endfor %}
 </ol>
 <p class="sec-more"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>
+
+<h2 class="sec-title">People</h2>
+{% include people.html %}
