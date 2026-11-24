@@ -12,7 +12,7 @@ redirect_from:
 {% include base_path %}
 
 <div class="hb">
-<img class="hb__photo" src="{{ base_path }}/images/profile.jpg?v=2" alt="Chi-Nguyen Tran">
+<a class="hb__zoom" href="{{ base_path }}/images/profile-large.jpg" data-zoom aria-label="Enlarge photo"><img class="hb__photo" src="{{ base_path }}/images/profile-portrait.jpg" alt="Chi-Nguyen Tran" width="560" height="700"></a>
 <div class="hb__text" markdown="1">
 <h1 class="hb__name">Chi-Nguyen Tran</h1>
 <p class="hb__status">Looking for PhD positions in robotics, Fall 2027</p>

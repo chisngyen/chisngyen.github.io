@@ -89,17 +89,19 @@ html[data-theme="dark"] { --pub-link: #9ccbf0; --pub-feat-bg: #2b2a17; --pub-gol
 .hb__name { font-size: 2.1em; font-weight: 400; margin: 0 0 4px; border: 0; letter-spacing: -0.01em; line-height: 1.15; }
 .hb__status { display: flex; align-items: center; gap: 8px; margin: 0 0 20px; font-size: 0.95em; color: var(--pub-accent); }
 .hb__status::before { content: ""; width: 7px; height: 7px; flex: none; background: var(--pub-accent); }
-.hb__photo { width: 232px; height: 290px; flex: none; object-fit: cover; object-position: 50% 20%; border: 1px solid var(--pub-line); border-radius: 2px; }
-.hb__links { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 20px 0 0; padding: 0; font-size: 0.95em; }
+.hb__zoom { flex: none; display: block; cursor: zoom-in; }
+.hb__photo { display: block; width: 264px; height: 330px; object-fit: cover; border: 1px solid var(--pub-line); border-radius: 2px; transition: border-color 0.15s ease; }
+.hb__zoom:hover .hb__photo { border-color: var(--pub-muted); }
+.hb__links { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 20px 0 0; padding: 0; font-size: 0.9em; }
 .hb__links li { margin: 0; }
-.hb__links a { display: inline-flex; align-items: center; gap: 6px; }
+.hb__links a { display: inline-flex; align-items: center; gap: 5px; }
 .hb__links i { width: 16px; text-align: center; font-size: 15px; color: var(--pub-muted); transition: color 0.15s ease; }
 .hb__links a:hover i { color: var(--pub-link); }
 @media (max-width: 640px) {
   .hb { flex-direction: column; align-items: center; gap: 16px; }
   .hb__name { text-align: center; }
   .hb__status { justify-content: center; }
-  .hb__photo { width: 152px; height: 190px; margin-top: 0; }
+  .hb__photo { width: 168px; height: 210px; }
   .hb__links { justify-content: center; }
 }
 
@@ -211,3 +213,9 @@ html[data-theme="dark"] .pub__tag--conferences { color: #10161b; }
   .pp-m { grid-template-columns: 1fr; gap: 8px; }
   .pp-t { grid-template-columns: repeat(2, 1fr); gap: 12px; }
 }
+
+/* Photo zoom */
+.zoom { position: fixed; inset: 0; z-index: 110; display: flex; align-items: center; justify-content: center; padding: 24px; background: rgba(15, 18, 20, 0.82); opacity: 0; transition: opacity 0.2s ease; cursor: zoom-out; }
+.zoom.is-open { opacity: 1; }
+.zoom img { max-width: min(560px, 100%); max-height: 100%; border-radius: 2px; transform: scale(0.97); transition: transform 0.2s ease; }
+.zoom.is-open img { transform: none; }
