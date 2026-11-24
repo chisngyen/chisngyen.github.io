@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-seo_title: "Chi-Nguyen Tran | Robotics research"
+seo_title: "Chi-Nguyen Tran"
 author_profile: false
 classes: home-barron
 redirect_from: 
