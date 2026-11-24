@@ -237,7 +237,6 @@ html[data-theme="dark"] .pub__tag--conferences { color: #10161b; }
 .pp-m--4 .pp-m__card { flex-direction: column; gap: 8px; }
 .pp-m--4 .pp-m__card img { width: 100%; height: auto; aspect-ratio: 4 / 5; }
 .pp-m--4 .pp-m__text { justify-content: flex-start; }
-.pp-m--student .pp-m__card { padding: 6px; }
 @media (max-width: 640px) {
   .pp-m--4 { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .pp-m--2 { grid-template-columns: 1fr; }
