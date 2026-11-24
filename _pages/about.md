@@ -17,7 +17,7 @@ redirect_from:
 <h1 class="hb__name">Chi-Nguyen Tran</h1>
 <p class="hb__status">Looking for PhD positions in robotics, Fall 2027</p>
 
-I'm a final-year B.Sc. student in Artificial Intelligence at <a href="https://hcmus.edu.vn">VNUHCM, University of Science</a> (HCMUS). From February to October 2026 I was AI R&D Lead at **Realtime Robotics**.
+I'm a final-year B.Sc. student in Artificial Intelligence at <a href="https://hcmus.edu.vn">VNUHCM, University of Science</a> (HCMUS), in the <a href="{{ base_path }}/lab/">Laboratory for Multi-Agent and Trustworthy AI</a> led by Prof. Long Tran-Thanh. From February to October 2026 I was AI R&D Lead at **Realtime Robotics**.
 
 My goal is to help robots understand what is around them, know where they are, and work out how to act, and whether it is safe to act, when their surroundings change, with models light enough to run on the robot itself.
 
@@ -47,6 +47,3 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
 {% endfor %}
 </ol>
 <p class="sec-more"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>
-
-<h2 class="sec-title">People</h2>
-{% include people.html %}

@@ -5,7 +5,7 @@
     <span class="tl__y">{{ y.year }}</span>
     <ol class="tl__items">
     {% for it in y.items %}
-      <li class="tl__item tl__item--{{ it.kind }}{% if it.major %} tl__item--major{% endif %}"><time>{{ it.month }}</time><span>{{ it.text }}</span></li>
+      <li class="tl__item tl__item--{{ it.kind }}{% if it.major %} tl__item--major{% endif %}"><time>{{ it.month }}</time><span>{{ it.text }}{% if it.news %} <a class="tl__news" href="{{ it.news }}">Faculty news</a>{% endif %}</span></li>
     {% endfor %}
     </ol>
   </li>

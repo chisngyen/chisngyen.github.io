@@ -9,6 +9,7 @@
       kind: paper
       major: true
       text: "<b>5 papers accepted at NeurIPS 2026</b> (Sydney), 2 as co-first author."
+      news: "https://www.fit.hcmus.edu.vn/tin-tuc/d/chuc-mung-nhom-sinh-vien-chuong-trinh-tri-tue-nhan-tao-cua-fithcmus-da-co-cac-cong-bo-duoc-chap-nhan-dang-tren-hoi-nghi-uy-tin-quoc-te-rank-a-xep-hang-1-trong-linh-vuc-tri-tue-nhan-tao-2026"
     - month: Jul
       kind: award
       text: "<b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (MEMRES)."
@@ -26,6 +27,7 @@
     - month: Dec
       kind: award
       text: "<b>Third Prize</b>, Vietnam Student AI Olympiad, National Round."
+      news: "https://www.fit.hcmus.edu.vn/tin-tuc/d/doi-tuyen-khoa-cong-nghe-thong-tin-dat-thanh-tich-xuat-sac-tai-olympic-tri-tue-nhan-tao-sinh-vien-viet-nam-lan-thu-nhat-2025"
     - kind: role
       text: "Joined research team HCMUS_TheFangs, advised by Prof. Long Tran-Thanh (University of Warwick)."
 - year: 2023

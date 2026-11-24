@@ -11,6 +11,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Lab"
+    url: /lab/
+
   - title: "CV"
     url: /cv/
     cv_panel: true
