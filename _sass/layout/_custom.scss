@@ -84,12 +84,12 @@ html[data-theme="dark"] { --pub-link: #9ccbf0; --pub-feat-bg: #2b2a17; --pub-gol
 #main.home-barron { max-width: 820px; }
 #main.home-barron .page { width: 100%; float: none; padding: 0; margin: 0 auto; }
 #main.home-barron .page__inner-wrap > .page__content { max-width: 800px; margin: 0 auto; }
-.hb { display: flex; gap: 40px; align-items: flex-start; margin: 8px 0; }
+.hb { display: flex; gap: 40px; align-items: center; margin: 8px 0; }
 .hb__text { flex: 1; min-width: 0; }
 .hb__name { font-size: 2.1em; font-weight: 400; margin: 0 0 4px; border: 0; letter-spacing: -0.01em; line-height: 1.15; }
 .hb__status { display: flex; align-items: center; gap: 8px; margin: 0 0 20px; font-size: 0.95em; color: var(--pub-accent); }
 .hb__status::before { content: ""; width: 7px; height: 7px; flex: none; background: var(--pub-accent); }
-.hb__photo { width: 216px; height: 270px; flex: none; object-fit: cover; object-position: 50% 20%; border: 1px solid var(--pub-line); border-radius: 2px; margin-top: 6px; }
+.hb__photo { width: 232px; height: 290px; flex: none; object-fit: cover; object-position: 50% 20%; border: 1px solid var(--pub-line); border-radius: 2px; }
 .hb__links { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 20px 0 0; padding: 0; font-size: 0.95em; }
 .hb__links li { margin: 0; }
 .hb__links a { display: inline-flex; align-items: center; gap: 6px; }
