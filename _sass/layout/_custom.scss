@@ -179,3 +179,12 @@ html.cvp-lock { overflow: hidden; }
 .pl-scholar { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85em; }
 .pl-scholar i { color: var(--pub-muted); }
 #main.home-barron .page__title { font-size: 2.1em; font-weight: 400; letter-spacing: -0.01em; margin-bottom: 12px; }
+
+/* Venue tag: conference filled accent, journal filled ink, competition outlined */
+.pub__venue { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 4px; }
+.pub__tag { display: inline-flex; align-items: center; height: 20px; padding: 0 6px; border: 1px solid transparent; border-radius: 2px; font-size: 0.82em; font-weight: 700; line-height: 1; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pub__tag--conferences { background: var(--pub-accent); color: #fff; }
+.pub__tag--journals { background: var(--global-text-color); color: var(--global-bg-color); }
+.pub__tag--competition, .pub__tag--preprints { border-color: var(--pub-muted); color: var(--global-text-color); }
+html[data-theme="dark"] .pub__tag--conferences { color: #10161b; }
+.pub__meta:empty { display: none; }
