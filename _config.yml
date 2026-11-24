@@ -88,11 +88,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   journals:
-    title: 'Journal Articles'
+    title: 'Journal articles'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference papers'
   competition:
-    title: 'Competition, Challenge & Shared-Task Papers'
+    title: 'Competition and shared-task papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

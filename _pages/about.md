@@ -45,6 +45,5 @@ With my teammates I have **two co-first papers at NeurIPS 2026**, **1st place in
   {% include pub-card.html compact=true %}
   </li>
 {% endfor %}
-  <li class="rs__item rs__item--next"><span class="rs__thread">Next</span><p class="rs__next">Teams of robots and sensors that learn from evidence how much to trust each member.</p></li>
 </ol>
 <p class="sec-more"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>

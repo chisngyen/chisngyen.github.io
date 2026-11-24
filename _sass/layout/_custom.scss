@@ -168,3 +168,14 @@ html.cvp-lock { overflow: hidden; }
 .ft__links a { color: var(--pub-muted); font-size: 17px; transition: color 0.15s ease; }
 .ft__links a:hover { color: var(--global-text-color); }
 .ft__copy { font-size: 0.75em; color: var(--pub-muted); }
+
+/* Publications list: same rail, filled marker = first or co-first author */
+.rs__item--co::before { background: var(--global-bg-color); border: 1.5px solid var(--pub-muted); box-sizing: border-box; }
+.rs--list .rs__item::before { top: 18px; }
+.rs__item:last-child { padding-bottom: 0; }
+.sec-count { margin-left: 8px; font-size: 0.6em; color: var(--pub-muted); font-variant-numeric: tabular-nums; vertical-align: middle; }
+.pl-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; }
+.pl-head .tl-legend { margin: 0; }
+.pl-scholar { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85em; }
+.pl-scholar i { color: var(--pub-muted); }
+#main.home-barron .page__title { font-size: 2.1em; font-weight: 400; letter-spacing: -0.01em; margin-bottom: 12px; }

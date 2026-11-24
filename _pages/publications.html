@@ -9,15 +9,20 @@ classes: home-barron
 
 {% include base_path %}
 
-<p style="font-size: 0.88em">* equal contribution. Full list also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<div class="pl-head">
+  <p class="tl-legend"><span class="tl-key tl-key--paper">First or co-first author</span><span class="tl-key tl-key--role">Co-author</span></p>
+  <a class="pl-scholar" href="{{ site.author.googlescholar }}"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i>Google Scholar</a>
+</div>
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% for category in site.publication_category %}
   {% assign group = pubs | where: "category", category[0] %}
   {% if group.size > 0 %}
-    <h2 class="sec-title">{{ category[1].title }}</h2>
+    <h2 class="sec-title">{{ category[1].title }} <span class="sec-count">{{ group.size }}</span></h2>
+    <ol class="rs rs--list">
     {% for post in group %}
-      {% include pub-card.html %}
+      <li class="rs__item{% unless post.role %} rs__item--co{% endunless %}">{% include pub-card.html compact=true %}</li>
     {% endfor %}
+    </ol>
   {% endif %}
 {% endfor %}
