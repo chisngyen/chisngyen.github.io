@@ -47,6 +47,10 @@ I am currently doing research in robotics. My goal is to help robots understand 
 * **2nd Place**, TRACS @ WASP 2025 (IJCNLP-AACL)
 * **2nd Place** (Top 2/172), Dig4Bio Raman Transfer Learning Challenge (Kaggle), 2025
 
+## Service
+{: .sec-title}
+* Reviewer: AIMS @ CVPR 2026; LT-EDI, DravidianLangTech and SemEval-2026 @ ACL 2026
+
 ## Publications
 {: .sec-title}
 See <a href="{{ base_path }}/publications/">Publications</a> for selected papers (also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>).

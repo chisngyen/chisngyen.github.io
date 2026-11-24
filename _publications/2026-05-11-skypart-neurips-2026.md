@@ -14,6 +14,7 @@ tldr: "A lightweight prototype-based semantic-part head on a DINOv2 ViT that mat
 citation: "Tran, C.-N.*, Dao-Sy, D.-M.*, Huynh, T.-K.*, Nguyen-Lam, P.-Q., Pham, P.-H., Tran-Thanh, L. (2026). Weather-Robust Cross-View Geo-Localization via Prototype-Based Semantic Part Discovery. NeurIPS 2026. arXiv:2605.11654."
 excerpt: "A lightweight prototype-based semantic-part head on a DINOv2 ViT that matches drone views to satellite tiles under fog, rain, snow and darkness. State of the art on weather-robust drone-to-satellite geo-localization with the fewest parameters among top methods."
 selected: true
+thread: "Knowing where it is when weather changes"
 rank: 1
 featured: true
 teaser: "t-skypart.jpg"
