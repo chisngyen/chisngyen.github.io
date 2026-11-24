@@ -1,0 +1,13 @@
+<p class="tl-legend"><span class="tl-key tl-key--paper">Paper</span><span class="tl-key tl-key--award">Award</span><span class="tl-key tl-key--role">Role</span></p>
+<ol class="tl">
+{% for y in site.data.timeline %}
+  <li class="tl__year{% if forloop.first %} tl__year--now{% endif %}">
+    <span class="tl__y">{{ y.year }}</span>
+    <ol class="tl__items">
+    {% for it in y.items %}
+      <li class="tl__item tl__item--{{ it.kind }}{% if it.major %} tl__item--major{% endif %}"><time>{{ it.month }}</time><span>{{ it.text }}</span></li>
+    {% endfor %}
+    </ol>
+  </li>
+{% endfor %}
+</ol>

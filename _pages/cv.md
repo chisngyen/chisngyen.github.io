@@ -11,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-<p><a class="pub__btn cv-btn" href="{{ base_path }}/files/cv.pdf">Download CV (PDF)</a></p>
+<p class="cv-actions"><a class="cv-btn" href="{{ base_path }}/files/cv.pdf" data-cv><i class="fa-solid fa-file-lines" aria-hidden="true"></i>View PDF</a><a class="cv-btn" href="{{ base_path }}/files/cv.pdf" download="Chi-Nguyen-Tran-CV.pdf"><i class="fa-solid fa-download" aria-hidden="true"></i>Download</a></p>
 
 ## Research interests
 {: .sec-title}

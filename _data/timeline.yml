@@ -1,0 +1,35 @@
+# Home page timeline, newest first. kind: paper | award | role | edu. major: true draws a larger marker.
+# month is optional; leave it out when the exact month is not on record.
+- year: 2026
+  items:
+    - month: Nov
+      kind: paper
+      text: "Paper accepted in <b>Interface Focus</b> (Royal Society, Q1 journal)."
+    - month: Sep
+      kind: paper
+      major: true
+      text: "<b>5 papers accepted at NeurIPS 2026</b> (Sydney), 2 as co-first author."
+    - month: Jul
+      kind: award
+      text: "<b>Winner</b>, FSE-AIWare 2026 Agentic Python Dependency Resolution Competition (MEMRES)."
+    - kind: award
+      text: "<b>1st place</b> in four shared tasks at SemEval-2026 (one tied), LREC 2026 and EACL 2026."
+    - month: Feb
+      kind: role
+      text: "AI R&amp;D Lead at <b>Realtime Robotics</b> until Oct 2026, on perception and localization for robots on embedded hardware."
+- year: 2025
+  items:
+    - month: Dec
+      kind: award
+      major: true
+      text: "<b>1st place in both tracks</b>, NeurIPS 2025 Mouse vs. AI Robust Foraging Competition."
+    - month: Dec
+      kind: award
+      text: "<b>Third Prize</b>, Vietnam Student AI Olympiad, National Round."
+    - kind: role
+      text: "Joined research team HCMUS_TheFangs, advised by Assoc. Prof. Minh-Triet Tran."
+- year: 2023
+  items:
+    - month: Sep
+      kind: edu
+      text: "Started the B.Sc. in Artificial Intelligence at HCMUS."

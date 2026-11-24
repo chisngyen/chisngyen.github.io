@@ -13,6 +13,7 @@ main:
 
   - title: "CV"
     url: /cv/
+    cv_panel: true
     
   # - title: "CV"
   #   url: /cv-json/

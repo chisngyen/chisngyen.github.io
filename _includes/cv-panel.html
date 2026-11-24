@@ -1,0 +1,14 @@
+{% include base_path %}
+<div class="cvp" id="cv-panel" hidden>
+  <div class="cvp__backdrop" data-cv-close></div>
+  <aside class="cvp__sheet" role="dialog" aria-modal="true" aria-labelledby="cvp-title" tabindex="-1">
+    <header class="cvp__bar">
+      <span class="cvp__title" id="cvp-title">CV</span>
+      <a class="cvp__act" href="{{ base_path }}/files/cv.pdf" download="Chi-Nguyen-Tran-CV.pdf"><i class="fa-solid fa-download" aria-hidden="true"></i>Download</a>
+      <a class="cvp__act" href="{{ base_path }}/files/cv.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>New tab</a>
+      <button class="cvp__close" type="button" data-cv-close aria-label="Close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </header>
+    <iframe class="cvp__doc" title="CV of Chi-Nguyen Tran" data-src="{{ base_path }}/files/cv.pdf#view=FitH&amp;toolbar=0&amp;navpanes=0"></iframe>
+  </aside>
+</div>
+<script src="{{ base_path }}/assets/js/cv-panel.js" defer></script>
