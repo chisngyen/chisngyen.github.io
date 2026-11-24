@@ -31,9 +31,3 @@ classes: home-barron
 <ul class="pp-m pp-m--4 pp-m--student">
 {% for p in lab.students %}{% include person-card.html p=p %}{% endfor %}
 </ul>
-
-<h2 class="sec-title">Also working with</h2>
-<ul class="pp-m pp-m--2">
-{% for p in lab.others %}{% include person-card.html p=p %}{% endfor %}
-</ul>
-
