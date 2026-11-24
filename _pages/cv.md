@@ -28,7 +28,7 @@ I am currently doing research in robotics. My goal is to help robots understand 
   Led research on perception and localization models for robots, and on making them run on the small embedded computers the robots carry.
 
 * **Research team member**, Team HCMUS_TheFangs, VNUHCM, University of Science (2025 - Present)  
-  Advised by Assoc. Prof. Minh-Triet Tran (Vice President, VNUHCM, University of Science). Mentored by Prof. Long Tran-Thanh (Warwick) and Prof. The Anh Han (Teesside) on LLM agents in game-theoretic settings. Research on robot localization under changing weather, robust visual agents and self-driving-car testing; international competitions and shared tasks.
+  Advised by Prof. Long Tran-Thanh (Warwick); mentored by Prof. The Anh Han (Teesside) on LLM agents in game-theoretic settings. B.Sc. thesis with Assoc. Prof. Minh-Triet Tran. Research on robot localization under changing weather, robust visual agents and self-driving-car testing; international competitions and shared tasks.
 
 * **Freelance Web Developer**, Remote (Canada-based client) (Oct 2025 - Present)
 
